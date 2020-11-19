@@ -1,0 +1,56 @@
+
+.h4ohmyfood{
+    font-family: 'Shrikhand', cursive;
+}
+
+.contenairegrisfoncer{
+    background-color: $colors-gris3;
+    width: 100%;
+    height: 370px;
+    color:$colors-white;
+}
+
+.fa-utensils{
+    color:$colors-white;
+    font-size: xx-large;
+}
+.fa-hands-helping{
+    color:$colors-white;
+    font-size: xx-large;
+}
+
+.h4ohmyfood{
+    color:$colors-white;
+    font-size: 2.5em;
+    padding: 4% 0% 3% 5%;
+}
+
+.block{
+    display: flex;
+    padding: 2% 0% 0% 5%;
+    p{
+        font-size: 1.9em;
+        margin: 0% 0% 0% 3.5%;
+    }
+    }
+.block2{
+    display: flex;
+    padding: 2% 0% 0% 5%;
+    p{
+     font-size: 1.9em;
+    margin: 0% 0% 0% 2%;
+    }
+ }
+
+.block1{
+    display: flex;
+    padding:2% 0% 0% 5%;
+    p{
+        font-size: 1.9em;
+    }
+    }
+    
+    footer{
+        z-index: 0;
+        position: relative;  
+    }

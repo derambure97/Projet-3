@@ -1,0 +1,396 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.pbasse {
+  font-family: "Roboto", sans-serif;
+}
+
+.titre2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: xxx-large;
+  margin-left: 4%;
+  margin-top: 8%;
+}
+
+.h3barre {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  padding-top: 10%;
+  padding-bottom: 4%;
+  text-align: center;
+  font-size: xxx-large;
+  font-weight: bold;
+}
+
+.p1 {
+  padding-bottom: 8%;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+.restopage {
+  font-family: "Shrikhand", cursive;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+h5 {
+  text-align: center;
+  font-size: xxx-large;
+  font-weight: bold;
+}
+
+.soustitreresto {
+  font-family: "Roboto", sans-serif;
+}
+
+.h3barre {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.boutonviolet {
+  margin-left: 30%;
+  width: 42%;
+  height: 100px;
+  background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%);
+  color: #fff;
+  font-size: 1.8em;
+  text-align: center;
+  cursor: pointer;
+  padding: 1.85rem 3rem;
+  border-radius: 10rem;
+  transform: scale(1);
+  position: relative;
+  z-index: 1;
+  box-shadow: -16px 28px 77px -45px rgba(0, 0, 0, 0.48);
+}
+.boutonviolet:hover::after {
+  opacity: 1;
+}
+.boutonviolet::after {
+  content: "";
+  position: absolute;
+  border-radius: 10rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, #a87adf 0%, #ff94e2 100%);
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 250ms;
+  box-shadow: 21px 28px 77px -25px rgba(0, 0, 0, 0.8);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.stepmenu {
+  background-color: #fff;
+  display: flex;
+  width: 93%;
+  height: 150px;
+  justify-content: space-between;
+  margin: 5% auto;
+  border-radius: 25px;
+  overflow: hidden;
+  font-size: 1.5em;
+}
+.stepmenu .texte {
+  width: calc(100% - 27px);
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.stepmenu .h3barre {
+  padding: 0%;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 0.2em;
+  margin: 0px 0;
+  text-align: left;
+}
+.stepmenu .h3barre, .stepmenu .pbasse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.stepmenu aside {
+  margin-bottom: 10px;
+  margin-right: 15px;
+  align-self: flex-end;
+  font-weight: bold;
+}
+.stepmenu .carre {
+  display: flex;
+  max-width: 0;
+  width: 0px;
+  background-color: #99e2d0;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  transition: 0.75s;
+}
+.stepmenu .carre .fa-check-circle {
+  transform: rotate(-360deg);
+  transition: 0.75s;
+}
+.stepmenu:hover {
+  white-space: nowrap;
+}
+.stepmenu:hover .texte {
+  width: calc(100% - 120px);
+}
+.stepmenu:hover .carre {
+  max-width: 80px;
+  width: 80px;
+  transition: 0.75s;
+}
+.stepmenu:hover .fa-check-circle {
+  transform: rotate(0deg);
+  transition: 0.75s;
+}
+
+.h4ohmyfood {
+  font-family: "Shrikhand", cursive;
+}
+
+.contenairegrisfoncer {
+  background-color: #353535;
+  width: 100%;
+  height: 370px;
+  color: #fff;
+}
+
+.fa-utensils {
+  color: #fff;
+  font-size: xx-large;
+}
+
+.fa-hands-helping {
+  color: #fff;
+  font-size: xx-large;
+}
+
+.h4ohmyfood {
+  color: #fff;
+  font-size: 2.5em;
+  padding: 4% 0% 3% 5%;
+}
+
+.block {
+  display: flex;
+  padding: 2% 0% 0% 5%;
+}
+.block p {
+  font-size: 1.9em;
+  margin: 0% 0% 0% 3.5%;
+}
+
+.block2 {
+  display: flex;
+  padding: 2% 0% 0% 5%;
+}
+.block2 p {
+  font-size: 1.9em;
+  margin: 0% 0% 0% 2%;
+}
+
+.block1 {
+  display: flex;
+  padding: 2% 0% 0% 5%;
+}
+.block1 p {
+  font-size: 1.9em;
+}
+
+footer {
+  z-index: 0;
+  position: relative;
+}
+
+.contenaireblanc {
+  background-color: #fff;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+}
+.contenaireblanc .fa-arrow-left {
+  font-size: 2.5em;
+  padding-right: 28%;
+  padding-top: 4%;
+}
+.contenaireblanc .titre {
+  text-align: center;
+  font-size: 4em;
+  padding-top: 4%;
+}
+
+.contenaireimage {
+  z-index: -1;
+  position: absolute;
+  background-image: url(./image/restaurant1.jpg);
+  display: inline-block;
+  width: 100%;
+  height: 640px;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-size: 100%;
+  background-position: 50% 134%;
+  background-repeat: no-repeat;
+}
+.contenaireimage .innervide {
+  display: block;
+  height: 0;
+  padding-top: 52.24%;
+}
+
+.blockgris {
+  z-index: 0;
+  position: relative;
+  top: 500px;
+  background-color: #f6f6f6;
+  padding: 0%;
+  height: 3000px;
+  padding-top: 2%;
+  border-radius: 12%/4% 4% 0% 0%;
+}
+
+.blocksousplussous {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soustitre {
+  display: flex;
+  padding-top: 8%;
+}
+
+.coeur {
+  font-size: 4em;
+  width: 50px;
+  height: 50px;
+  background-image: url(./asset/heart-regular.svg);
+}
+
+.coeur:hover {
+  background-image: url(./asset/heart-solid.svg);
+  color: #9356DC;
+  transition: 0.5s;
+}
+
+.restopage {
+  margin-left: 6%;
+  margin-right: 18%;
+}
+
+.entrees {
+  padding: 5% 0% 0% 1%;
+}
+
+.boutonviolet {
+  margin-left: 30%;
+  width: 42%;
+  height: 100px;
+  background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%);
+  color: #fff;
+  font-size: 1.8em;
+  text-align: center;
+  cursor: pointer;
+  padding: 1.85rem 3rem;
+  border-radius: 10rem;
+  transform: scale(1);
+  position: relative;
+  z-index: 1;
+  box-shadow: -16px 28px 77px -45px rgba(0, 0, 0, 0.48);
+}
+.boutonviolet:hover::after {
+  opacity: 1;
+}
+.boutonviolet::after {
+  content: "";
+  position: absolute;
+  border-radius: 10rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, #a87adf 0%, #ff94e2 100%);
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 250ms;
+  box-shadow: 21px 28px 77px -25px rgba(0, 0, 0, 0.8);
+}
+
+/*# sourceMappingURL=style1.css.map */

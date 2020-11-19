@@ -1,0 +1,89 @@
+
+
+.stepcomplet{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ 
+    
+    .boutongris {
+        display: flex;
+        align-items: center;
+        background-color: $colors-gris2;
+        margin: 5%;
+        width: 90%;
+        height: 200px;
+        border-radius: 70px;
+        text-align: center;
+        font-size: 1em;
+        position: relative;
+        box-shadow: 2px 18px 33px -24px rgba(0,0,0,0.48);
+        transition: background-color 250ms;
+        &:hover{
+          background-color: darken($colors-gris2, 5);
+        }
+              
+            
+    }
+   .boutongris:hover .fa-mobile-alt{
+     color: $colors-primary;
+   }
+   .boutongris:hover .fa-list-ul{
+    color: $colors-primary;
+  }
+  .boutongris:hover .fa-store{
+    color: $colors-primary;
+  }
+
+   .cercleviolet{
+      
+        background: $colors-primary;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: calc(50% - 25px);
+        left: -25px;
+        z-index: 100;
+       
+    }
+    .cercleviolet p {
+        margin-top: 22%;
+        color:$colors-white;
+        font-size: 2em;
+      }
+
+
+
+.fa-mobile-alt{
+   margin-right: 2%;
+   font-size: 300%;
+   padding-right: 3%;
+   padding-left: 8%;
+   
+  
+}
+
+
+.fa-list-ul{
+  margin-right: 2%;
+  font-size: 300%;
+  padding-right: 3%;
+  padding-left: 8%;
+   
+}
+.fa-store{
+  margin-right: 2%;
+  font-size: 300%;
+  padding-right: 3%;
+    padding-left: 8%;
+  
+}
+
+
+.ps{
+  font-size: 2.5em;
+  text-align: center;
+}
+
+}
