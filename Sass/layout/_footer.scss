@@ -6,22 +6,22 @@
 .contenairegrisfoncer{
     background-color: $colors-gris3;
     width: 100%;
-    height: 370px;
+    
     color:$colors-white;
 }
 
 .fa-utensils{
     color:$colors-white;
-    font-size: xx-large;
+    font-size: 1em;
 }
 .fa-hands-helping{
     color:$colors-white;
-    font-size: xx-large;
+    font-size: 1em;
 }
 
 .h4ohmyfood{
     color:$colors-white;
-    font-size: 2.5em;
+    font-size: 1.5em;
     padding: 4% 0% 3% 5%;
 }
 
@@ -29,7 +29,7 @@
     display: flex;
     padding: 2% 0% 0% 5%;
     p{
-        font-size: 1.9em;
+        font-size: 1em;
         margin: 0% 0% 0% 3.5%;
     }
     }
@@ -37,7 +37,7 @@
     display: flex;
     padding: 2% 0% 0% 5%;
     p{
-     font-size: 1.9em;
+     font-size: 1em;
     margin: 0% 0% 0% 2%;
     }
  }
@@ -46,7 +46,7 @@
     display: flex;
     padding:2% 0% 0% 5%;
     p{
-        font-size: 1.9em;
+        font-size: 1em;
     }
     }
     
@@ -54,3 +54,7 @@
         z-index: 0;
         position: relative;  
     }
+
+.block1plus{
+    padding-bottom: 10%;
+}

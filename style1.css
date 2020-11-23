@@ -71,8 +71,8 @@ p {
 .titre2 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: xxx-large;
-  margin-left: 4%;
+  font-size: 2em;
+  margin-left: 6%;
   margin-top: 8%;
 }
 
@@ -81,24 +81,9 @@ p {
   font-weight: bold;
 }
 
-h3 {
-  padding-top: 10%;
-  padding-bottom: 4%;
-  text-align: center;
-  font-size: xxx-large;
-  font-weight: bold;
-}
-
-.p1 {
-  padding-bottom: 8%;
-  text-align: center;
-  font-size: 2.5em;
-  font-family: "Roboto", sans-serif;
-}
-
 .restopage {
   font-family: "Shrikhand", cursive;
-  font-size: 4em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -118,15 +103,15 @@ h5 {
 }
 
 .boutonviolet {
-  margin-left: 30%;
-  width: 42%;
-  height: 100px;
-  background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%);
+  margin: auto;
+  width: 75%;
+  align-items: center;
+  background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
   color: #fff;
-  font-size: 1.8em;
+  font-size: 1em;
   text-align: center;
   cursor: pointer;
-  padding: 1.85rem 3rem;
+  padding: 1.5rem 0rem;
   border-radius: 10rem;
   transform: scale(1);
   position: relative;
@@ -158,13 +143,12 @@ h5 {
 .stepmenu {
   background-color: #fff;
   display: flex;
-  width: 93%;
-  height: 150px;
+  width: 92%;
   justify-content: space-between;
   margin: 5% auto;
-  border-radius: 25px;
+  border-radius: 14px;
   overflow: hidden;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 .stepmenu .texte {
   width: calc(100% - 27px);
@@ -174,9 +158,9 @@ h5 {
 .stepmenu .h3barre {
   padding: 0%;
   font-weight: bold;
-  font-size: 3em;
-  line-height: 0.2em;
-  margin: 0px 0;
+  font-size: 1.2em;
+  line-height: 3.2em;
+  margin: -7px 1px;
   text-align: left;
 }
 .stepmenu .h3barre, .stepmenu .pbasse {
@@ -194,7 +178,7 @@ h5 {
   max-width: 0;
   width: 0px;
   background-color: #99e2d0;
-  color: white;
+  color: #fff;
   align-items: center;
   justify-content: center;
   font-size: 2em;
@@ -204,18 +188,18 @@ h5 {
   transform: rotate(-360deg);
   transition: 0.75s;
 }
-.stepmenu:hover {
+.stepmenu .carre:hover {
   white-space: nowrap;
 }
-.stepmenu:hover .texte {
+.stepmenu .carre:hover .texte {
   width: calc(100% - 120px);
 }
-.stepmenu:hover .carre {
+.stepmenu .carre:hover .carre {
   max-width: 80px;
   width: 80px;
   transition: 0.75s;
 }
-.stepmenu:hover .fa-check-circle {
+.stepmenu .carre:hover .fa-check-circle {
   transform: rotate(0deg);
   transition: 0.75s;
 }
@@ -227,23 +211,22 @@ h5 {
 .contenairegrisfoncer {
   background-color: #353535;
   width: 100%;
-  height: 370px;
   color: #fff;
 }
 
 .fa-utensils {
   color: #fff;
-  font-size: xx-large;
+  font-size: 1em;
 }
 
 .fa-hands-helping {
   color: #fff;
-  font-size: xx-large;
+  font-size: 1em;
 }
 
 .h4ohmyfood {
   color: #fff;
-  font-size: 2.5em;
+  font-size: 1.5em;
   padding: 4% 0% 3% 5%;
 }
 
@@ -252,7 +235,7 @@ h5 {
   padding: 2% 0% 0% 5%;
 }
 .block p {
-  font-size: 1.9em;
+  font-size: 1em;
   margin: 0% 0% 0% 3.5%;
 }
 
@@ -261,7 +244,7 @@ h5 {
   padding: 2% 0% 0% 5%;
 }
 .block2 p {
-  font-size: 1.9em;
+  font-size: 1em;
   margin: 0% 0% 0% 2%;
 }
 
@@ -270,12 +253,16 @@ h5 {
   padding: 2% 0% 0% 5%;
 }
 .block1 p {
-  font-size: 1.9em;
+  font-size: 1em;
 }
 
 footer {
   z-index: 0;
   position: relative;
+}
+
+.block1plus {
+  padding-bottom: 10%;
 }
 
 .contenaireblanc {
@@ -285,13 +272,13 @@ footer {
   align-items: center;
 }
 .contenaireblanc .fa-arrow-left {
-  font-size: 2.5em;
-  padding-right: 28%;
+  font-size: 1.25em;
+  padding-right: 15%;
   padding-top: 4%;
 }
 .contenaireblanc .titre {
   text-align: center;
-  font-size: 4em;
+  font-size: 1.8em;
   padding-top: 4%;
 }
 
@@ -301,35 +288,28 @@ footer {
   background-image: url(./image/restaurant1.jpg);
   display: inline-block;
   width: 100%;
-  height: 640px;
   font-size: 0;
   line-height: 0;
   vertical-align: middle;
-  background-size: 100%;
-  background-position: 50% 134%;
+  background-size: 120%;
+  background-position: 55% 168%;
   background-repeat: no-repeat;
 }
 .contenaireimage .innervide {
   display: block;
   height: 0;
-  padding-top: 52.24%;
+  padding-top: 72.24%;
 }
 
 .blockgris {
   z-index: 0;
   position: relative;
-  top: 500px;
+  top: 166px;
   background-color: #f6f6f6;
   padding: 0%;
   height: 3000px;
   padding-top: 2%;
-  border-radius: 12%/4% 4% 0% 0%;
-}
-
-.blocksousplussous {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 15%/1% 1% 0% 0%;
 }
 
 .soustitre {
@@ -337,10 +317,20 @@ footer {
   padding-top: 8%;
 }
 
+.blocksousplussous {
+  padding-left: 5.5%;
+  padding-top: 5%;
+}
+.blocksousplussous .traitvert {
+  width: 40px;
+  height: 2px;
+  background-color: #99e2d0;
+}
+
 .coeur {
   font-size: 4em;
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   background-image: url(./asset/heart-regular.svg);
 }
 
@@ -353,10 +343,6 @@ footer {
 .restopage {
   margin-left: 6%;
   margin-right: 18%;
-}
-
-.entrees {
-  padding: 5% 0% 0% 1%;
 }
 
 .boutonviolet {
