@@ -148,7 +148,6 @@ h5 {
   margin: 5% auto;
   border-radius: 14px;
   overflow: hidden;
-  font-size: 1em;
 }
 .stepmenu .texte {
   width: calc(100% - 27px);
@@ -160,12 +159,15 @@ h5 {
   font-weight: bold;
   font-size: 1.2em;
   line-height: 3.2em;
-  margin: -7px 1px;
+  margin: -12px 1px;
   text-align: left;
 }
 .stepmenu .h3barre, .stepmenu .pbasse {
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.stepmenu .pbasse {
+  font-size: 0.8em;
 }
 .stepmenu aside {
   margin-bottom: 10px;
@@ -181,7 +183,7 @@ h5 {
   color: #fff;
   align-items: center;
   justify-content: center;
-  font-size: 2em;
+  font-size: 1em;
   transition: 0.75s;
 }
 .stepmenu .carre .fa-check-circle {
@@ -202,67 +204,6 @@ h5 {
 .stepmenu .carre:hover .fa-check-circle {
   transform: rotate(0deg);
   transition: 0.75s;
-}
-
-.h4ohmyfood {
-  font-family: "Shrikhand", cursive;
-}
-
-.contenairegrisfoncer {
-  background-color: #353535;
-  width: 100%;
-  color: #fff;
-}
-
-.fa-utensils {
-  color: #fff;
-  font-size: 1em;
-}
-
-.fa-hands-helping {
-  color: #fff;
-  font-size: 1em;
-}
-
-.h4ohmyfood {
-  color: #fff;
-  font-size: 1.5em;
-  padding: 4% 0% 3% 5%;
-}
-
-.block {
-  display: flex;
-  padding: 2% 0% 0% 5%;
-}
-.block p {
-  font-size: 1em;
-  margin: 0% 0% 0% 3.5%;
-}
-
-.block2 {
-  display: flex;
-  padding: 2% 0% 0% 5%;
-}
-.block2 p {
-  font-size: 1em;
-  margin: 0% 0% 0% 2%;
-}
-
-.block1 {
-  display: flex;
-  padding: 2% 0% 0% 5%;
-}
-.block1 p {
-  font-size: 1em;
-}
-
-footer {
-  z-index: 0;
-  position: relative;
-}
-
-.block1plus {
-  padding-bottom: 10%;
 }
 
 .contenaireblanc {
@@ -377,6 +318,67 @@ footer {
   z-index: -1;
   transition: opacity 250ms;
   box-shadow: 21px 28px 77px -25px rgba(0, 0, 0, 0.8);
+}
+
+.h4ohmyfood {
+  font-family: "Shrikhand", cursive;
+}
+
+.contenairegrisfoncer {
+  background-color: #353535;
+  width: 100%;
+  color: #fff;
+}
+
+.fa-utensils {
+  color: #fff;
+  font-size: 1em;
+}
+
+.fa-hands-helping {
+  color: #fff;
+  font-size: 1em;
+}
+
+.h4ohmyfood {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 4% 0% 3% 5%;
+}
+
+.block {
+  display: flex;
+  padding: 2% 0% 0% 5%;
+}
+.block p {
+  font-size: 1em;
+  margin: 0% 0% 0% 3.5%;
+}
+
+.block2 {
+  display: flex;
+  padding: 2% 0% 0% 5%;
+}
+.block2 p {
+  font-size: 1em;
+  margin: 0% 0% 0% 2%;
+}
+
+.block1 {
+  display: flex;
+  padding: 2% 0% 0% 5%;
+}
+.block1 p {
+  font-size: 1em;
+}
+
+footer {
+  z-index: 0;
+  position: relative;
+}
+
+.block1plus {
+  padding-bottom: 10%;
 }
 
 /*# sourceMappingURL=style1.css.map */
