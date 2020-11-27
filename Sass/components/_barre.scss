@@ -1,6 +1,21 @@
 * { box-sizing: border-box;  }
-
+.fade-in-up{
+  animation: fadeIn 2s;
+}
+@keyframes fadeIn{
+  0%{
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+    
+  }
+}
 .stepmenu{
+  box-shadow: 1px 9px 300px -28px rgba(0, 0, 0, 0.75);
+
   background-color: $colors-white;
   display: flex;
   width: 92%;
@@ -8,18 +23,18 @@
   margin: 5% auto;
   border-radius: 14px;
   overflow: hidden;
+  
  
   .texte {
     width: calc(100% - 27px);
-    padding: 0 10px;
+    padding: 3% 0% 0% 2%;
     margin-bottom: 10px;
   }
   .h3barre {
-    padding: 0%;
+    padding: 2% 0% 3% 0%;
     font-weight: bold;
     font-size: 1.2em;
-    line-height: 3.2em;
-    margin: -12px 1px;
+  
     text-align: left;
   }
   .h3barre, .pbasse{
@@ -49,6 +64,7 @@
     transform: rotate(-360deg);
     transition: 0.75s;
   }
+}
 &:hover{
   white-space: nowrap;
   .texte {
@@ -63,7 +79,7 @@
     transform: rotate(0deg);
     transition: 0.75s;
   }
-}
+
 }
 }
 

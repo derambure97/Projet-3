@@ -140,7 +140,22 @@ h5 {
   box-sizing: border-box;
 }
 
+.fade-in-up {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
 .stepmenu {
+  box-shadow: 1px 9px 300px -28px rgba(0, 0, 0, 0.75);
   background-color: #fff;
   display: flex;
   width: 92%;
@@ -151,15 +166,13 @@ h5 {
 }
 .stepmenu .texte {
   width: calc(100% - 27px);
-  padding: 0 10px;
+  padding: 3% 0% 0% 2%;
   margin-bottom: 10px;
 }
 .stepmenu .h3barre {
-  padding: 0%;
+  padding: 2% 0% 3% 0%;
   font-weight: bold;
   font-size: 1.2em;
-  line-height: 3.2em;
-  margin: -12px 1px;
   text-align: left;
 }
 .stepmenu .h3barre, .stepmenu .pbasse {
@@ -190,18 +203,18 @@ h5 {
   transform: rotate(-360deg);
   transition: 0.75s;
 }
-.stepmenu .carre:hover {
+.stepmenu:hover {
   white-space: nowrap;
 }
-.stepmenu .carre:hover .texte {
+.stepmenu:hover .texte {
   width: calc(100% - 120px);
 }
-.stepmenu .carre:hover .carre {
+.stepmenu:hover .carre {
   max-width: 80px;
   width: 80px;
   transition: 0.75s;
 }
-.stepmenu .carre:hover .fa-check-circle {
+.stepmenu:hover .fa-check-circle {
   transform: rotate(0deg);
   transition: 0.75s;
 }
@@ -248,9 +261,8 @@ h5 {
   top: 166px;
   background-color: #f6f6f6;
   padding: 0%;
-  height: 3000px;
   padding-top: 2%;
-  border-radius: 15%/1% 1% 0% 0%;
+  border-radius: 15%/3% 3% 0% 0%;
 }
 
 .soustitre {
@@ -286,38 +298,18 @@ h5 {
   margin-right: 18%;
 }
 
-.boutonviolet {
-  margin-left: 30%;
-  width: 42%;
-  height: 100px;
-  background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%);
-  color: #fff;
-  font-size: 1.8em;
-  text-align: center;
-  cursor: pointer;
-  padding: 1.85rem 3rem;
-  border-radius: 10rem;
-  transform: scale(1);
+.desserts {
+  padding-bottom: 9%;
+}
+
+.block1plus {
+  padding: 0% 0% 0% 0%;
+}
+
+footer {
+  z-index: 0;
   position: relative;
-  z-index: 1;
-  box-shadow: -16px 28px 77px -45px rgba(0, 0, 0, 0.48);
-}
-.boutonviolet:hover::after {
-  opacity: 1;
-}
-.boutonviolet::after {
-  content: "";
-  position: absolute;
-  border-radius: 10rem;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(0deg, #a87adf 0%, #ff94e2 100%);
-  opacity: 0;
-  z-index: -1;
-  transition: opacity 250ms;
-  box-shadow: 21px 28px 77px -25px rgba(0, 0, 0, 0.8);
+  top: 230px;
 }
 
 .h4ohmyfood {
