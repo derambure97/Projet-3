@@ -1,0 +1,32 @@
+.contenaireimage{
+    z-index: -1;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    .innervide{
+        display:block;
+        height:0;
+        padding-top:71.24%;
+      }
+}
+.resto-1{
+  background-image: url(./image/restaurant1.jpg);
+  background-position: 55% 0%;
+}
+.resto-2{
+  background-image: url(./image/restaurant2.jpg);
+  background-position: 55% 44%;
+}
+.resto-3{
+  background-image: url(./image/restaurant3.jpg);
+}
+.resto-4{
+  background-image: url(./image/restaurant4.jpg);
+  background-position: 84% -258%;
+}

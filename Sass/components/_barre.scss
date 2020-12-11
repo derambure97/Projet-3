@@ -1,17 +1,10 @@
 * { box-sizing: border-box;  }
 .fade-in-up{
-  animation: fadeIn 2s;
+  animation: fadeIn 1s ease;
+
+@for $i from 1 to 10 {
+  &:nth-child(#{$i}) { animation-duration: $i * 1s; }
 }
-@keyframes fadeIn{
-  0%{
-    transform: translateY(30px);
-    opacity: 0;
-  }
-  100%{
-    transform: translateY(0px);
-    opacity: 1;
-    
-  }
 }
 .stepmenu{
   box-shadow: 1px 9px 300px -28px rgba(0, 0, 0, 0.75);

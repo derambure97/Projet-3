@@ -1,27 +1,25 @@
 .contenaireimage{
     z-index: -1;
     position: absolute;
-    background-image: url(./image/restaurant1.jpg);
     display: inline-block;
     width: 100%;
     font-size: 0;
     line-height: 0;
     vertical-align: middle;
-    background-size: 120%;
-    background-position: 55% 168%;
+    background-size: 100%;
     background-repeat: no-repeat;
 
     .innervide{
         display:block;
         height:0;
-        padding-top:72.24%;
+        padding-top:71.24%;
       }
 }
 
 .blockgris {
     z-index: 0;
     position: relative;
-    top: 166px;
+    top: 182px;
     background-color: #f6f6f6;
     padding: 0%;
    
@@ -62,8 +60,14 @@
     margin-left: 6%;
     margin-right: 18%;
 }
-
+.entrees{
+    animation: fadeIn 1s;
+}
+.plats{
+    animation: fadeIn 2s;
+}
 .desserts{
+    animation: fadeIn 2.5s;
 padding-bottom: 9%;
 }
 

@@ -102,6 +102,10 @@ h5 {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+}
+
 .boutonviolet {
   margin: auto;
   width: 75%;
@@ -141,19 +145,36 @@ h5 {
 }
 
 .fade-in-up {
-  animation: fadeIn 2s;
+  animation: fadeIn 1s ease;
+}
+.fade-in-up:nth-child(1) {
+  animation-duration: 1s;
+}
+.fade-in-up:nth-child(2) {
+  animation-duration: 2s;
+}
+.fade-in-up:nth-child(3) {
+  animation-duration: 3s;
+}
+.fade-in-up:nth-child(4) {
+  animation-duration: 4s;
+}
+.fade-in-up:nth-child(5) {
+  animation-duration: 5s;
+}
+.fade-in-up:nth-child(6) {
+  animation-duration: 6s;
+}
+.fade-in-up:nth-child(7) {
+  animation-duration: 7s;
+}
+.fade-in-up:nth-child(8) {
+  animation-duration: 8s;
+}
+.fade-in-up:nth-child(9) {
+  animation-duration: 9s;
 }
 
-@keyframes fadeIn {
-  0% {
-    transform: translateY(30px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
 .stepmenu {
   box-shadow: 1px 9px 300px -28px rgba(0, 0, 0, 0.75);
   background-color: #fff;
@@ -219,6 +240,62 @@ h5 {
   transition: 0.75s;
 }
 
+@keyframes fadeIn {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.contenaireimage {
+  z-index: -1;
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.contenaireimage .innervide {
+  display: block;
+  height: 0;
+  padding-top: 71.24%;
+}
+
+.resto-1 {
+  background-image: url(./image/restaurant1.jpg);
+  background-position: 55% 0%;
+}
+
+.resto-2 {
+  background-image: url(./image/restaurant2.jpg);
+  background-position: 55% 44%;
+}
+
+.resto-3 {
+  background-image: url(./image/restaurant3.jpg);
+}
+
+.resto-4 {
+  background-image: url(./image/restaurant4.jpg);
+  background-position: 84% -258%;
+}
+
 .contenaireblanc {
   background-color: #fff;
   padding: 5%;
@@ -236,29 +313,35 @@ h5 {
   padding-top: 4%;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.25em;
+  padding-right: 15%;
+  padding-top: 4%;
+}
+
 .contenaireimage {
   z-index: -1;
   position: absolute;
-  background-image: url(./image/restaurant1.jpg);
   display: inline-block;
   width: 100%;
   font-size: 0;
   line-height: 0;
   vertical-align: middle;
-  background-size: 120%;
-  background-position: 55% 168%;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 .contenaireimage .innervide {
   display: block;
   height: 0;
-  padding-top: 72.24%;
+  padding-top: 71.24%;
 }
 
 .blockgris {
   z-index: 0;
   position: relative;
-  top: 166px;
+  top: 182px;
   background-color: #f6f6f6;
   padding: 0%;
   padding-top: 2%;
@@ -298,7 +381,16 @@ h5 {
   margin-right: 18%;
 }
 
+.entrees {
+  animation: fadeIn 1s;
+}
+
+.plats {
+  animation: fadeIn 2s;
+}
+
 .desserts {
+  animation: fadeIn 2.5s;
   padding-bottom: 9%;
 }
 
