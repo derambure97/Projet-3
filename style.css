@@ -110,6 +110,14 @@ a {
   .titre2 {
     margin-top: 4%;
   }
+
+  .restopage {
+    font-size: 2.8em;
+  }
+
+  .soustitreresto {
+    font-size: 1.8em;
+  }
 }
 .boutonviolet {
   margin: auto;
@@ -258,6 +266,27 @@ a {
     margin: 0% 0% 5% 0%;
     padding-right: 0%;
     padding-left: 0%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bigstep {
+    padding: 5% 15% 5% 6%;
+  }
+
+  .stepcomplet .boutongris {
+    height: 146px;
+    padding: 27%;
+    width: 266%;
+  }
+  .stepcomplet .boutongris .cercleviolet {
+    top: calc(1% - 23px);
+    left: 196px;
+    width: 40px;
+    height: 40px;
+  }
+  .stepcomplet .cercleviolet p {
+    margin-top: 22%;
+    font-size: 1.8em;
   }
 }
 * {
@@ -431,6 +460,12 @@ a {
     padding-top: 52.24%;
   }
 }
+@media screen and (min-width: 1024px) {
+  .duo {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .h4ohmyfood {
   font-family: "Shrikhand", cursive;
 }
@@ -511,6 +546,38 @@ footer {
     padding: 0%;
   }
 }
+@media screen and (min-width: 1024px) {
+  .blockpourresponsive .fa-utensils {
+    font-size: 2em;
+  }
+  .blockpourresponsive .fa-hands-helping {
+    font-size: 2em;
+  }
+  .blockpourresponsive .h4ohmyfood {
+    font-size: 4em;
+    padding: 4% 0% 3% 5%;
+  }
+  .blockpourresponsive .block {
+    padding: 2% 0% 0% 5%;
+  }
+  .blockpourresponsive .block p {
+    font-size: 2em;
+    margin: 0% 0% 0% 3.5%;
+  }
+  .blockpourresponsive .block2 {
+    padding: 2% 0% 0% 5%;
+  }
+  .blockpourresponsive .block2 p {
+    font-size: 2em;
+    margin: 0% 0% 0% 2%;
+  }
+  .blockpourresponsive .block1 {
+    padding: 2% 0% 0% 5%;
+  }
+  .blockpourresponsive .block1 p {
+    font-size: 2em;
+  }
+}
 .contenaireblanc {
   background-color: #fff;
   padding: 5%;
@@ -578,6 +645,35 @@ footer {
   }
   .contenairegris2 .p1 {
     padding-bottom: 4%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contenaireblanc {
+    padding: 2%;
+  }
+  .contenaireblanc .titre {
+    font-size: 6em;
+    padding-top: 2%;
+  }
+
+  .contenairegris2 {
+    padding-bottom: 6%;
+  }
+  .contenairegris2 h3 {
+    padding-top: 4%;
+    padding-bottom: 1%;
+    font-size: 3em;
+  }
+  .contenairegris2 .p1 {
+    padding-bottom: 4%;
+    font-size: 2em;
+  }
+
+  .contenairegris1 .fa-map-marker-alt {
+    font-size: 3.25em;
+  }
+  .contenairegris1 .lieux {
+    font-size: 3.25em;
   }
 }
 .contenaireblanc2 {

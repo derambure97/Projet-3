@@ -181,3 +181,11 @@ a{
   }
  
 }
+
+@include desktop (){
+ .duo{
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+}

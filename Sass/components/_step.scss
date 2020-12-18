@@ -122,3 +122,35 @@
 }
 }
 }
+
+@include desktop() {
+  .bigstep{
+    padding: 5% 15% 5% 6%;
+  }
+  .stepcomplet{
+      .boutongris {
+        height: 146px;
+        padding: 27%;
+        width: 266%;
+
+    .cercleviolet{
+      top: calc(1% - 23px);
+      left:196px;
+      width: 40px;
+        height: 40px;
+   
+    .fa-mobile-alt{
+      margin: 0% 9% 5% 0%;
+    
+  }
+
+
+.cercleviolet p {
+  margin-top: 22%;
+  font-size: 1.8em;
+
+}
+}
+}
+}
+}
