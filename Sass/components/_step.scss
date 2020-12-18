@@ -1,5 +1,4 @@
 
-
 .stepcomplet{
     display: flex;
     justify-content: center;
@@ -85,4 +84,41 @@
   text-align: center;
 }
 
+}
+
+@include tablet() {
+  .bigstep{
+   
+    display: flex;
+    justify-content: space-between ;
+    padding: 5% 6% 5% 6%;
+  }
+  .stepcomplet{
+    display: block;
+  .boutongris {
+    display: block;
+    height: 100px;
+    padding: 15%;
+    width:90%;
+  .cercleviolet{
+    top: calc(12% - 23px);
+    left: 63px;
+  }
+  .fa-mobile-alt{
+    margin: 0% 0% 5% 0%;
+  padding-right: 0%;
+  padding-left: 0%;
+  }
+  .fa-list-ul{
+    margin: 0% 0% 5% 0%;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .fa-store{
+    margin: 0% 0% 5% 0%;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+}
+}
 }

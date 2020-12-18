@@ -51,3 +51,19 @@ h5{
 a{
     text-decoration: none;    
 }
+
+@include tablet() {
+    .titre2{
+    margin-top: 4%;
+}
+.restopage{
+    
+    font-size: 2.8em;
+
+}
+.soustitreresto{
+    font-size: 1.8em;
+    
+}
+
+}

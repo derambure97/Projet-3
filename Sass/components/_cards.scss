@@ -23,7 +23,7 @@
     font-family:'Roboto', sans serif;
     font-size: 1em;
   }
-.card{
+ .card{
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -165,4 +165,19 @@ background-repeat: no-repeat;
 
 a{
   color: $colors-black;
+}
+
+@include tablet (){
+  .card{
+    height: 365px;
+    border-radius: 10% 10% 10% 10%;
+   }
+  
+  .card__thumb{
+    height: 256px;
+  }
+  .innervide{
+    padding-top:52.24%;
+  }
+ 
 }

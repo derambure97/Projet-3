@@ -1,6 +1,7 @@
 
 
 .boutonviolet {
+    
     margin: auto;
     width: 75%;
     align-items: center;
@@ -34,5 +35,18 @@
     z-index: -1;
     transition: opacity 250ms;
     box-shadow: 21px 28px 77px -25px rgba(0, 0, 0, 0.80);
+}
+}
+
+
+@include tablet(){
+    .boutonviolet {
+         width: 40%;
+         
+    }
+}
+@include desktop() {
+    .boutonviolet {
+    width: 30%;
 }
 }
