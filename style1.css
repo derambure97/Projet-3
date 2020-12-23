@@ -375,6 +375,10 @@ a {
     padding-right: 21%;
   }
 }
+body {
+  background-color: #f6f6f6;
+}
+
 .contenaireimage {
   z-index: -1;
   position: absolute;
@@ -422,6 +426,7 @@ a {
   width: 20px;
   height: 20px;
   background-image: url(./asset/heart-regular.svg);
+  background-repeat: no-repeat;
 }
 
 .coeur:hover {
@@ -489,10 +494,33 @@ footer {
     padding: 0%;
   }
 }
-.h4ohmyfood {
-  font-family: "Shrikhand", cursive;
-}
+@media screen and (min-width: 1024px) {
+  .h4ohmyfood {
+    font-size: 3em;
+    padding: 2% 0% 3% 5%;
+  }
 
+  .blockpourresponsive .fa-utensils {
+    font-size: 1.5em;
+  }
+  .blockpourresponsive .fa-hands-helping {
+    font-size: 1.5em;
+  }
+  .blockpourresponsive .block p {
+    font-size: 1.5em;
+    margin: 0% 0% 0% 3.5%;
+  }
+  .blockpourresponsive .block2 p {
+    font-size: 1.5em;
+    margin: 0% 0% 0% 2%;
+  }
+  .blockpourresponsive .block1 p {
+    font-size: 1.5em;
+  }
+  .blockpourresponsive .block1plus {
+    padding-bottom: 6%;
+  }
+}
 .contenairegrisfoncer {
   background-color: #353535;
   width: 100%;
@@ -510,6 +538,7 @@ footer {
 }
 
 .h4ohmyfood {
+  font-family: "Shrikhand", cursive;
   color: #fff;
   font-size: 1.5em;
   padding: 4% 0% 3% 5%;
@@ -567,6 +596,33 @@ footer {
 
   .block2 {
     padding: 0%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .h4ohmyfood {
+    font-size: 3em;
+    padding: 2% 0% 3% 5%;
+  }
+
+  .blockpourresponsive .fa-utensils {
+    font-size: 1.5em;
+  }
+  .blockpourresponsive .fa-hands-helping {
+    font-size: 1.5em;
+  }
+  .blockpourresponsive .block p {
+    font-size: 1.5em;
+    margin: 0% 0% 0% 3.5%;
+  }
+  .blockpourresponsive .block2 p {
+    font-size: 1.5em;
+    margin: 0% 0% 0% 2%;
+  }
+  .blockpourresponsive .block1 p {
+    font-size: 1.5em;
+  }
+  .blockpourresponsive .block1plus {
+    padding-bottom: 6%;
   }
 }
 

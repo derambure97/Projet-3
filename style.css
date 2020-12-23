@@ -174,7 +174,7 @@ a {
   background-color: #f6f6f6;
   margin: 4%;
   width: 82%;
-  height: 64px;
+  padding: 5%;
   border-radius: 15px;
   text-align: center;
   font-size: 1em;
@@ -235,58 +235,42 @@ a {
 @media screen and (min-width: 700px) {
   .bigstep {
     display: flex;
-    justify-content: space-between;
-    padding: 5% 6% 5% 6%;
+    justify-content: space-evenly;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
-
-  .stepcomplet {
-    display: block;
+  .bigstep .boutongris {
+    flex-direction: column;
   }
-  .stepcomplet .boutongris {
-    display: block;
-    height: 100px;
-    padding: 15%;
-    width: 90%;
+  .bigstep .cercleviolet {
+    top: -1.5vw;
+    left: calc(50% - 1.5vw);
   }
-  .stepcomplet .boutongris .cercleviolet {
-    top: calc(12% - 23px);
-    left: 63px;
+  .bigstep .stepcomplet .fas {
+    padding: 10% 10% 10% 10%;
   }
-  .stepcomplet .boutongris .fa-mobile-alt {
-    margin: 0% 0% 5% 0%;
-    padding-right: 0%;
-    padding-left: 0%;
-  }
-  .stepcomplet .boutongris .fa-list-ul {
-    margin: 0% 0% 5% 0%;
-    padding-right: 0%;
-    padding-left: 0%;
-  }
-  .stepcomplet .boutongris .fa-store {
-    margin: 0% 0% 5% 0%;
-    padding-right: 0%;
-    padding-left: 0%;
+  .bigstep .stepcomplet .ps {
+    padding-bottom: 16%;
   }
 }
 @media screen and (min-width: 1024px) {
-  .bigstep {
-    padding: 5% 15% 5% 6%;
+  .bigstep .boutongris {
+    width: 26vw;
+    border-radius: 25px;
   }
-
-  .stepcomplet .boutongris {
-    height: 146px;
-    padding: 27%;
-    width: 266%;
+  .bigstep .cercleviolet {
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
   }
-  .stepcomplet .boutongris .cercleviolet {
-    top: calc(1% - 23px);
-    left: 196px;
-    width: 40px;
-    height: 40px;
+  .bigstep .cercleviolet p {
+    font-size: 1.5vw;
   }
-  .stepcomplet .cercleviolet p {
-    margin-top: 22%;
-    font-size: 1.8em;
+  .bigstep .stepcomplet .fas {
+    font-size: 2vw;
+  }
+  .bigstep .stepcomplet .ps {
+    font-size: 2vw;
   }
 }
 * {
@@ -341,6 +325,7 @@ a {
   width: 30px;
   height: 30px;
   background-image: url(./asset/heart-regular.svg);
+  background-repeat: no-repeat;
 }
 
 .coeur:hover {
@@ -463,13 +448,9 @@ a {
 @media screen and (min-width: 1024px) {
   .duo {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
-.h4ohmyfood {
-  font-family: "Shrikhand", cursive;
-}
-
 .contenairegrisfoncer {
   background-color: #353535;
   width: 100%;
@@ -487,6 +468,7 @@ a {
 }
 
 .h4ohmyfood {
+  font-family: "Shrikhand", cursive;
   color: #fff;
   font-size: 1.5em;
   padding: 4% 0% 3% 5%;
@@ -547,35 +529,30 @@ footer {
   }
 }
 @media screen and (min-width: 1024px) {
+  .h4ohmyfood {
+    font-size: 3em;
+    padding: 2% 0% 3% 5%;
+  }
+
   .blockpourresponsive .fa-utensils {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .blockpourresponsive .fa-hands-helping {
-    font-size: 2em;
-  }
-  .blockpourresponsive .h4ohmyfood {
-    font-size: 4em;
-    padding: 4% 0% 3% 5%;
-  }
-  .blockpourresponsive .block {
-    padding: 2% 0% 0% 5%;
+    font-size: 1.5em;
   }
   .blockpourresponsive .block p {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0% 0% 0% 3.5%;
   }
-  .blockpourresponsive .block2 {
-    padding: 2% 0% 0% 5%;
-  }
   .blockpourresponsive .block2 p {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0% 0% 0% 2%;
   }
-  .blockpourresponsive .block1 {
-    padding: 2% 0% 0% 5%;
-  }
   .blockpourresponsive .block1 p {
-    font-size: 2em;
+    font-size: 1.5em;
+  }
+  .blockpourresponsive .block1plus {
+    padding-bottom: 6%;
   }
 }
 .contenaireblanc {
@@ -678,7 +655,6 @@ footer {
 }
 .contenaireblanc2 {
   background-color: #fff;
-  padding: 1%;
 }
 
 .restaurantgris2 {
@@ -690,7 +666,6 @@ footer {
 
 .contenaireblanc2 {
   background-color: #fff;
-  padding: 1%;
 }
 
 .restaurantgris2 {

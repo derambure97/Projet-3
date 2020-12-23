@@ -11,7 +11,7 @@
       background-color: #f6f6f6;
       margin: 4%;
       width:82%;
-      height: 64px;
+     padding: 5%;
       border-radius: 15px;
       text-align: center;
       font-size: 1em;
@@ -88,69 +88,56 @@
 
 @include tablet() {
   .bigstep{
-   
     display: flex;
-    justify-content: space-between ;
-    padding: 5% 6% 5% 6%;
+    justify-content: space-evenly;
+    padding-top: 10%;
+    padding-bottom: 10%;
+.boutongris{
+  flex-direction: column;
+} 
+.cercleviolet{
+top: -1.5vw;
+left: calc(50% - 1.5vw);
+} 
+.stepcomplet{
+  .fas{
+    padding: 10% 10% 10% 10%;
+
   }
-  .stepcomplet{
-    display: block;
-  .boutongris {
-    display: block;
-    height: 100px;
-    padding: 15%;
-    width:90%;
-  .cercleviolet{
-    top: calc(12% - 23px);
-    left: 63px;
-  }
-  .fa-mobile-alt{
-    margin: 0% 0% 5% 0%;
-  padding-right: 0%;
-  padding-left: 0%;
-  }
-  .fa-list-ul{
-    margin: 0% 0% 5% 0%;
-    padding-right: 0%;
-    padding-left: 0%;
-  }
-  .fa-store{
-    margin: 0% 0% 5% 0%;
-    padding-right: 0%;
-    padding-left: 0%;
+  .ps{
+    padding-bottom: 16%;
   }
 }
-}
-}
+} 
+
+} 
 
 @include desktop() {
   .bigstep{
-    padding: 5% 15% 5% 6%;
+
+.boutongris{
+  width: 26vw;
+  border-radius: 25px;
+} 
+.cercleviolet{
+ border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+    }
+  .cercleviolet p {
+     
+      font-size: 1.5vw;
+    }
+
+.stepcomplet{
+  .fas{
+
+ font-size: 2vw;
   }
-  .stepcomplet{
-      .boutongris {
-        height: 146px;
-        padding: 27%;
-        width: 266%;
-
-    .cercleviolet{
-      top: calc(1% - 23px);
-      left:196px;
-      width: 40px;
-        height: 40px;
-   
-    .fa-mobile-alt{
-      margin: 0% 9% 5% 0%;
-    
+  .ps{
+    font-size: 2vw;
   }
+}
+} 
 
-
-.cercleviolet p {
-  margin-top: 22%;
-  font-size: 1.8em;
-
-}
-}
-}
-}
-}
+} 

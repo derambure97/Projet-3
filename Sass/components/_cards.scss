@@ -50,6 +50,7 @@
    width: 30px;
    height:30px;
    background-image: url(./asset/heart-regular.svg);
+   background-repeat: no-repeat;
   }
  
   .coeur:hover  {
@@ -185,7 +186,7 @@ a{
 @include desktop (){
  .duo{
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
  }
  
 }
