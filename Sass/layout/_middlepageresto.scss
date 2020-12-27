@@ -1,9 +1,13 @@
 body{
     background-color: #f6f6f6;
 }
+main{
+    position: relative;
+    top:54vw;
+}
 .contenaireimage{
-    z-index: -1;
-    position: absolute;
+   
+
     display: inline-block;
     width: 100%;
     font-size: 0;
@@ -20,9 +24,8 @@ body{
 }
 
 .blockgris {
-    z-index: 0;
-    position: relative;
-    top: 182px;
+   
+   
     background-color: #f6f6f6;
     padding: 0%;
    
@@ -88,5 +91,16 @@ padding-bottom: 9%;
                 height: 4px;
                 background-color: $colors-vert1;
             }
+    }
+}
+
+@include desktop (){
+    body{
+        background-color: $colors-white;
+    }
+    .blockgris {
+        width: 70%;
+        margin:auto;
+
     }
 }

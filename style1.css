@@ -131,8 +131,6 @@ a {
   padding: 1.5rem 0rem;
   border-radius: 10rem;
   transform: scale(1);
-  position: relative;
-  z-index: 1;
   box-shadow: -16px 28px 77px -45px rgba(0, 0, 0, 0.48);
 }
 .boutonviolet:hover::after {
@@ -375,13 +373,29 @@ a {
     padding-right: 21%;
   }
 }
+@media screen and (min-width: 1024px) {
+  .contenaireblanc .fa-arrow-left {
+    font-size: 1.25em;
+  }
+  .contenaireblanc .titre {
+    font-size: 3.8em;
+  }
+
+  a {
+    font-size: 2.25em;
+    padding-right: 21%;
+  }
+}
 body {
   background-color: #f6f6f6;
 }
 
+main {
+  position: relative;
+  top: 54vw;
+}
+
 .contenaireimage {
-  z-index: -1;
-  position: absolute;
   display: inline-block;
   width: 100%;
   font-size: 0;
@@ -397,9 +411,6 @@ body {
 }
 
 .blockgris {
-  z-index: 0;
-  position: relative;
-  top: 182px;
   background-color: #f6f6f6;
   padding: 0%;
   padding-top: 2%;
@@ -465,14 +476,18 @@ body {
     background-color: #99e2d0;
   }
 }
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #fff;
+  }
+
+  .blockgris {
+    width: 70%;
+    margin: auto;
+  }
+}
 .block1plus {
   padding: 0% 0% 0% 0%;
-}
-
-footer {
-  z-index: 0;
-  position: relative;
-  top: 230px;
 }
 
 @media screen and (min-width: 700px) {
@@ -568,11 +583,6 @@ footer {
 }
 .block1 p {
   font-size: 1em;
-}
-
-footer {
-  z-index: 0;
-  position: relative;
 }
 
 .block1plus {
