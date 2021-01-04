@@ -13,14 +13,14 @@
   display: flex;
   width: 92%;
   justify-content: space-between;
-  margin: 5% auto;
+  margin: 20px auto;
   border-radius: 14px;
   overflow: hidden;
   
  
   .texte {
     width: calc(100% - 27px);
-    padding: 3% 0% 0% 2%;
+    padding: 10px 0px 0px 10px;
     margin-bottom: 10px;
   }
   .h3barre {
@@ -70,6 +70,7 @@
     transition: 0.75s;
   }
   .fa-check-circle{
+    font-size: 2em;
     transform: rotate(0deg);
     transition: 0.75s;
   }
@@ -84,7 +85,7 @@
     box-shadow: 1px 9px 44px -28px rgba(0, 0, 0, 0.75);
  
  .h3barre {
-  padding: 1% 0% 3% 0%;
+  padding: 5px 0px 5px 0px;
   font-size: 1.8em;
 }
 

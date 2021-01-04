@@ -156,7 +156,7 @@ a {
     width: 40%;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1100px) {
   .boutonviolet {
     width: 30%;
   }
@@ -202,13 +202,13 @@ a {
   display: flex;
   width: 92%;
   justify-content: space-between;
-  margin: 5% auto;
+  margin: 20px auto;
   border-radius: 14px;
   overflow: hidden;
 }
 .stepmenu .texte {
   width: calc(100% - 27px);
-  padding: 3% 0% 0% 2%;
+  padding: 10px 0px 0px 10px;
   margin-bottom: 10px;
 }
 .stepmenu .h3barre {
@@ -258,6 +258,7 @@ a {
   transition: 0.75s;
 }
 .stepmenu:hover .fa-check-circle {
+  font-size: 2em;
   transform: rotate(0deg);
   transition: 0.75s;
 }
@@ -267,7 +268,7 @@ a {
     box-shadow: 1px 9px 44px -28px rgba(0, 0, 0, 0.75);
   }
   .stepmenu .h3barre {
-    padding: 1% 0% 3% 0%;
+    padding: 5px 0px 5px 0px;
     font-size: 1.8em;
   }
   .stepmenu .pbasse {
@@ -300,8 +301,6 @@ a {
   }
 }
 .contenaireimage {
-  z-index: -1;
-  position: absolute;
   display: inline-block;
   width: 100%;
   font-size: 0;
@@ -313,7 +312,7 @@ a {
 .contenaireimage .innervide {
   display: block;
   height: 0;
-  padding-top: 71.24%;
+  padding-top: 56.24%;
 }
 
 .resto-1 {
@@ -323,41 +322,43 @@ a {
 
 .resto-2 {
   background-image: url(./image/restaurant2.jpg);
-  background-position: 55% 44%;
+  background-position: 55% 0%;
 }
 
 .resto-3 {
   background-image: url(./image/restaurant3.jpg);
+  background-position: 55% 0%;
 }
 
 .resto-4 {
   background-image: url(./image/restaurant4.jpg);
-  background-position: 84% -258%;
+  background-position: 55% 0%;
 }
 
 .contenaireblanc {
   background-color: #fff;
-  padding: 5%;
+  padding: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: relative;
 }
 .contenaireblanc .fa-arrow-left {
   font-size: 1.25em;
   padding-right: 15%;
-  padding-top: 4%;
 }
 .contenaireblanc .titre {
   text-align: center;
   font-size: 1.8em;
-  padding-top: 4%;
+  justify-self: center;
 }
 
 a {
   text-decoration: none;
   color: #000;
   font-size: 1.25em;
-  padding-right: 15%;
-  padding-top: 4%;
+  position: absolute;
+  left: 40px;
 }
 
 @media screen and (min-width: 700px) {
@@ -370,10 +371,9 @@ a {
 
   a {
     font-size: 2.25em;
-    padding-right: 21%;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1100px) {
   .contenaireblanc .fa-arrow-left {
     font-size: 1.25em;
   }
@@ -383,16 +383,10 @@ a {
 
   a {
     font-size: 2.25em;
-    padding-right: 21%;
   }
 }
 body {
   background-color: #f6f6f6;
-}
-
-main {
-  position: relative;
-  top: 54vw;
 }
 
 .contenaireimage {
@@ -407,10 +401,12 @@ main {
 .contenaireimage .innervide {
   display: block;
   height: 0;
-  padding-top: 71.24%;
+  padding-top: 56.24%;
 }
 
 .blockgris {
+  top: -100px;
+  position: relative;
   background-color: #f6f6f6;
   padding: 0%;
   padding-top: 2%;
@@ -476,14 +472,15 @@ main {
     background-color: #99e2d0;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1100px) {
   body {
     background-color: #fff;
   }
 
   .blockgris {
-    width: 70%;
+    width: 50%;
     margin: auto;
+    border-radius: 8%/3% 3% 0% 0%;
   }
 }
 .block1plus {
@@ -509,7 +506,7 @@ main {
     padding: 0%;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1100px) {
   .h4ohmyfood {
     font-size: 3em;
     padding: 2% 0% 3% 5%;
@@ -608,7 +605,7 @@ main {
     padding: 0%;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1100px) {
   .h4ohmyfood {
     font-size: 3em;
     padding: 2% 0% 3% 5%;

@@ -1,10 +1,7 @@
 body{
     background-color: #f6f6f6;
 }
-main{
-    position: relative;
-    top:54vw;
-}
+
 .contenaireimage{
    
 
@@ -19,13 +16,13 @@ main{
     .innervide{
         display:block;
         height:0;
-        padding-top:71.24%;
+        padding-top:56.24%;
       }
 }
 
 .blockgris {
-   
-   
+    top:-100px;
+    position: relative;
     background-color: #f6f6f6;
     padding: 0%;
    
@@ -98,9 +95,12 @@ padding-bottom: 9%;
     body{
         background-color: $colors-white;
     }
+
     .blockgris {
-        width: 70%;
+        width: 50%;
         margin:auto;
+        border-radius: 8%/3% 3% 0% 0%;
 
     }
+    
 }
