@@ -21,7 +21,7 @@ body{
 }
 
 .blockgris {
-    top:-100px;
+    top:-26px;
     position: relative;
     background-color: #f6f6f6;
     padding: 0%;
@@ -31,6 +31,7 @@ body{
 }
 .soustitre{
     display: flex;
+    justify-content: space-evenly;
     padding-top: 8%;    
 }
 .blocksousplussous{
@@ -61,8 +62,8 @@ body{
    }
 
 .restopage{
-    margin-left: 6%;
-    margin-right: 18%;
+    margin-left: 0%;
+    margin-right: 27%;
 }
 .entrees{
     animation: fadeIn 1s;
@@ -76,6 +77,11 @@ padding-bottom: 9%;
 }
 
 @include tablet (){
+    
+.blockgris {
+    top:-100px;
+}
+
     .coeur{
     
         width: 50px;
@@ -88,6 +94,10 @@ padding-bottom: 9%;
                 height: 4px;
                 background-color: $colors-vert1;
             }
+    }
+    .restopage{
+        margin-left: 0%;
+        margin-right: 22%;
     }
 }
 
@@ -102,5 +112,8 @@ padding-bottom: 9%;
         border-radius: 8%/3% 3% 0% 0%;
 
     }
-    
+    .restopage{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 }

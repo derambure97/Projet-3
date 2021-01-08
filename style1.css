@@ -87,12 +87,6 @@ p {
   font-weight: bold;
 }
 
-h5 {
-  text-align: center;
-  font-size: xxx-large;
-  font-weight: bold;
-}
-
 .soustitreresto {
   font-family: "Roboto", sans-serif;
 }
@@ -405,7 +399,7 @@ body {
 }
 
 .blockgris {
-  top: -100px;
+  top: -26px;
   position: relative;
   background-color: #f6f6f6;
   padding: 0%;
@@ -415,6 +409,7 @@ body {
 
 .soustitre {
   display: flex;
+  justify-content: space-evenly;
   padding-top: 8%;
 }
 
@@ -443,8 +438,8 @@ body {
 }
 
 .restopage {
-  margin-left: 6%;
-  margin-right: 18%;
+  margin-left: 0%;
+  margin-right: 27%;
 }
 
 .entrees {
@@ -461,6 +456,10 @@ body {
 }
 
 @media screen and (min-width: 700px) {
+  .blockgris {
+    top: -100px;
+  }
+
   .coeur {
     width: 50px;
     height: 50px;
@@ -470,6 +469,11 @@ body {
     width: 70px;
     height: 4px;
     background-color: #99e2d0;
+  }
+
+  .restopage {
+    margin-left: 0%;
+    margin-right: 22%;
   }
 }
 @media screen and (min-width: 1100px) {
@@ -481,6 +485,11 @@ body {
     width: 50%;
     margin: auto;
     border-radius: 8%/3% 3% 0% 0%;
+  }
+
+  .restopage {
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
 .block1plus {
