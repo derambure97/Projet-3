@@ -56,8 +56,8 @@ animation: load 3s linear;
   }
  
  @keyframes spin{
-     0%{-webikit-transform: rotate(0deg); transform: rotate(0deg); 
+     0%{transform: rotate(0deg); transform: rotate(0deg); 
        }
-     100%{-webikit-transform: rotate(360deg); transform: rotate(360deg); 
+     100%{transform: rotate(360deg); transform: rotate(360deg); 
        }
  }
