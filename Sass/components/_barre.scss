@@ -26,7 +26,7 @@
   .h3barre {
     padding: 2% 0% 3% 0%;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
   
     text-align: left;
   }
@@ -43,6 +43,7 @@
     margin-right: 15px;
     align-self: flex-end;
     font-weight: bold;
+    font-size: 0.8em;
   }
   .carre{
   display: flex;
@@ -65,12 +66,12 @@
     width: calc(100% - 120px);
   }
   .carre{
-    max-width: 80px;
-    width: 80px;
+    max-width: 60px;
+    width: 60px;
     transition: 0.75s;
   }
   .fa-check-circle{
-    font-size: 2em;
+    font-size: 1.5em;
     transform: rotate(0deg);
     transition: 0.75s;
   }
@@ -94,9 +95,25 @@
   padding-bottom: 1%;
 
 }
-.aside{
+aside{
   font-size: 1.1em;
   margin-bottom: 18px;
+}
+&:hover{
+ 
+  .texte {
+    width: calc(100% - 120px);
+  }
+  .carre{
+    max-width: 80px;
+    width: 80px;
+    
+  }
+  .fa-check-circle{
+    font-size: 2em;
+  
+  }
+
 }
 }
 }

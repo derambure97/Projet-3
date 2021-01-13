@@ -71,7 +71,7 @@ p {
 .titre2 {
   font-family: "Roboto", "sans-serif";
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-left: 6%;
   margin-top: 8%;
 }
@@ -89,6 +89,7 @@ p {
 
 .soustitreresto {
   font-family: "Roboto", "sans-serif";
+  padding-bottom: 5px;
 }
 
 .h3barre {
@@ -242,7 +243,7 @@ a {
   transition: background-color 250ms;
 }
 .stepcomplet .boutongris:hover {
-  background-color: #e9e9e9;
+  background-color: #F5EDFF;
 }
 .stepcomplet .boutongris:hover .fa-mobile-alt {
   color: #9356DC;
@@ -342,7 +343,7 @@ a {
 .card__title {
   font-family: "Roboto", "sans-serif";
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding-bottom: 4%;
 }
 
@@ -396,7 +397,7 @@ a {
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  padding: 10px 30px;
+  padding: 10px 15px;
 }
 
 .card__thumb {

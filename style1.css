@@ -71,7 +71,7 @@ p {
 .titre2 {
   font-family: "Roboto", "sans-serif";
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-left: 6%;
   margin-top: 8%;
 }
@@ -89,6 +89,7 @@ p {
 
 .soustitreresto {
   font-family: "Roboto", "sans-serif";
+  padding-bottom: 5px;
 }
 
 .h3barre {
@@ -208,7 +209,7 @@ a {
 .stepmenu .h3barre {
   padding: 2% 0% 3% 0%;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: left;
 }
 .stepmenu .h3barre, .stepmenu .pbasse {
@@ -224,6 +225,7 @@ a {
   margin-right: 15px;
   align-self: flex-end;
   font-weight: bold;
+  font-size: 0.8em;
 }
 .stepmenu .carre {
   display: flex;
@@ -247,12 +249,12 @@ a {
   width: calc(100% - 120px);
 }
 .stepmenu:hover .carre {
-  max-width: 80px;
-  width: 80px;
+  max-width: 60px;
+  width: 60px;
   transition: 0.75s;
 }
 .stepmenu:hover .fa-check-circle {
-  font-size: 2em;
+  font-size: 1.5em;
   transform: rotate(0deg);
   transition: 0.75s;
 }
@@ -269,9 +271,19 @@ a {
     font-size: 1.1em;
     padding-bottom: 1%;
   }
-  .stepmenu .aside {
+  .stepmenu aside {
     font-size: 1.1em;
     margin-bottom: 18px;
+  }
+  .stepmenu:hover .texte {
+    width: calc(100% - 120px);
+  }
+  .stepmenu:hover .carre {
+    max-width: 80px;
+    width: 80px;
+  }
+  .stepmenu:hover .fa-check-circle {
+    font-size: 2em;
   }
 }
 @keyframes fadeIn {
@@ -301,22 +313,22 @@ a {
 
 .resto-1 {
   background-image: url(./image/restaurant1.jpg);
-  background-position: 55% 0%;
+  background-position: center;
 }
 
 .resto-2 {
   background-image: url(./image/restaurant2.jpg);
-  background-position: 55% 0%;
+  background-position: center;
 }
 
 .resto-3 {
   background-image: url(./image/restaurant3.jpg);
-  background-position: 55% 0%;
+  background-position: center;
 }
 
 .resto-4 {
   background-image: url(./image/restaurant4.jpg);
-  background-position: 55% 0%;
+  background-position: center;
 }
 
 .contenaireblanc {
@@ -443,6 +455,10 @@ body {
 .desserts {
   animation: fadeIn 2.5s;
   padding-bottom: 9%;
+}
+
+.boutonresto {
+  width: 55%;
 }
 
 @media screen and (min-width: 700px) {
